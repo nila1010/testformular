@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Første fomular</title>
+</head>
+
+<body>
+    <main>
+        <h1>Indtast dine oplysninger så kontakter vi dig</h1>
+        <form action="index.html" netlyfy>
+            <label>
+                Navn
+                <input placeholder="fx Jens Svendsen" type="text" name="navn" required>
+            </label>
+            <label>
+                Email
+                <input placeholder="fx kea@stud.dk" type="email" name="email" required>
+            </label>
+            <label>
+                Telefonnr
+                <input placeholder="fx 12345678" type="tel" name="telefonnr" required>
+            </label>
+            <label>
+                Profil
+                <select name="liste">
+                    <option value="">Vælg profil</option>
+                    <option value="studerende">Studerende</option>
+                    <option value="underviser">Underviser</option>
+                </select>
+            </label>
+            <button type="submit">Indsend</button>
+        </form>
+
+    </main>
+
+</body>
+
+</html>
